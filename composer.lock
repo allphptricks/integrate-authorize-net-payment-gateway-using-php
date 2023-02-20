@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "96b5d506f27ec4deed12d3b8b58e8d11",
+    "packages": [
+        {
+            "name": "authorizenet/authorizenet",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AuthorizeNet/sdk-php.git",
+                "reference": "a3e76f96f674d16e892f87c58bedb99dada4b067"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AuthorizeNet/sdk-php/zipball/a3e76f96f674d16e892f87c58bedb99dada4b067",
+                "reference": "a3e76f96f674d16e892f87c58bedb99dada4b067",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Official PHP SDK for Authorize.Net",
+            "homepage": "http://developer.authorize.net",
+            "keywords": [
+                "authorize.net",
+                "authorizenet",
+                "ecommerce",
+                "payment"
+            ],
+            "support": {
+                "issues": "https://github.com/AuthorizeNet/sdk-php/issues",
+                "source": "https://github.com/AuthorizeNet/sdk-php/tree/2.0.2"
+            },
+            "time": "2021-03-31T18:22:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
